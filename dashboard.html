@@ -15,6 +15,7 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Animation library for notifications   -->
+    <!-- You can use animate css cdn in place of this -->
     <link href="assets/css/animate.min.css" rel="stylesheet"/>
 
     <!--  Light Bootstrap Table core CSS    -->
@@ -28,6 +29,8 @@
     <!--     Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+    
+    <!-- This manages all the icons in the icon tab -->
     <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
 
 </head>
@@ -419,24 +422,26 @@
     <script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
 	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
 
-	<!--  Checkbox, Radio & Switch Plugins -->
+	<!--  Checkbox, Radio & Switch Plugins,  If I remove this, Checkboxes goes away-->
 	<script src="assets/js/bootstrap-checkbox-radio-switch.js"></script>
 
 	<!--  Charts Plugin -->
 	<script src="assets/js/chartist.min.js"></script>
 
-    <!--  Notifications Plugin    -->
+    <!--  Notifications Plugin   All works fine even if I remove this plugin -->
     <script src="assets/js/bootstrap-notify.js"></script>
 
-    <!--  Google Maps Plugin    -->
+    <!--  Google Maps Plugin / All works fine even when I remove this   -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
-    <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
+    <!-- Light Bootstrap Table Core javascript and methods for Demo purpose / All works fine even if I remove this-->
 	<script src="assets/js/light-bootstrap-dashboard.js"></script>
 
-	<!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
+	<!-- Light Bootstrap Table DEMO methods / Charts goes away from the dashboard -->
 	<script src="assets/js/demo.js"></script>
-
+    
+    
+    <!--  Everything works fine even when I remove the following script with only a slight negligible change -->
 	<script type="text/javascript">
     	$(document).ready(function(){
 
